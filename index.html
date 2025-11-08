@@ -4,206 +4,242 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<!--suppress ALL -->
 <html lang="en">
 <head>
-  <title>Geo's Personal Page</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-  <link rel="stylesheet" href="./assets/css/main.css"/>
+    <title>Geo's Personal Page</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico"/>
+
+    <!-- Font Awesome from CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+
 </head>
 <body class="is-preload">
 
 <!-- Nav -->
-<nav id="nav">
-  <ul class="container">
-    <li><a href="#top">Top</a></li>
-    <li><a href="#work">About</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#crusader">Crusader</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+<nav id="nav" role="navigation" aria-label="Main navigation">
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" aria-label="Toggle navigation menu" role="button" tabindex="0"
+             aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <ul class="container">
+        <li><a href="#top">Top</a></li>
+        <li><a href="#work">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#crusader">Crusader</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 </nav>
 
 <!-- Home -->
-<article id="top" class="wrapper style1">
-  <div class="container">
-    <div class="row">
-      <div class="col-4 col-4-large col-12-medium image-spacing">
-        <span class="image fit"><img src="./images/geoNick300.webp" alt="Geo's Avatar"/></span>
-      </div>
-      <div class="col-4 col-4-large col-12-medium text-left">
-        <header>
-          <h2>Hi. I'm George Wright.</h2>
-        </header>
-        <p>The avatar is Geo, from <a href="https://www.nickjr.com/shows/team-umizoomi">Team
-          Umizoomi</a>. I've
-          adopted this avatar because it matches my email handle of over 35 years.</p>
-        <p>This site is just an exercise in static website building and hosting.</p>
-        <a href="#work" class="button large scrolly">Learn More</a>
-      </div>
-      <div class="col-4 col-4-large col-12-medium image-spacing">
-        <span class="image fit"><img src="./images/headShot.webp" alt="Geo's Head Shot"/></span>
-      </div>
+<article id="top" class="wrapper style1" role="region" aria-labelledby="top-heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-4-large col-12-medium image-spacing">
+        <span class="image fit"><img src="./images/geoNick300.webp" alt="Geo's Avatar"
+                                     srcset="./images/geoNick300.webp"
+                                     sizes="(max-width: 736px) 100vw, 33vw"/></span>
+            </div>
+            <div class="col-4 col-4-large col-12-medium text-left">
+                <header>
+                    <h1 id="top-heading">Hi. I'm George Wright.</h1>
+                </header>
+                <p>The avatar is Geo, from <a href="https://www.nickjr.com/shows/team-umizoomi">Team
+                    Umizoomi</a>. I've
+                    adopted this avatar because it matches my email handle of over 35 years.</p>
+                <p>This site is just an exercise in static website building and hosting.</p>
+                <a href="#work" class="button large scrolly">Learn More</a>
+            </div>
+            <div class="col-4 col-4-large col-12-medium image-spacing">
+        <span class="image fit"><img src="./images/headShot.webp" alt="Geo's Head Shot"
+                                     srcset="./images/headShot.webp"
+                                     sizes="(max-width: 736px) 100vw, 33vw"/></span>
+            </div>
+        </div>
     </div>
-  </div>
 </article>
 
 <!-- Work -->
-<article id="work" class="wrapper style2">
-  <div class="container">
-    <header>
-      <h2>I'm retired!</h2>
-      <p>So I don't do much.</p>
-    </header>
-    <div class="row aln-center">
-      <div class="col-4 col-6-medium col-12-small">
-        <section class="box style1">
-          <img src="./images/retirement2.ico" alt="Retirement Icon" height="100" width="100">
-          <h3>Retirement</h3>
-          <p>I'm retired from the <a href="./assets/documents/crashStory.pdf">Navy</a> and from <a
-            href="https://www.loyola.edu/">Loyola University Maryland</a>. I live with my wife Pat
-            at <a
-              href="https://mercyridge.com/">Mercy Ridge</a>.</p>
-        </section>
-      </div>
-      <div class="col-4 col-6-medium col-12-small">
-        <section class="box style1">
-          <img src="./images/webdesign.ico" alt="Administrative Icon" height="100" width="100">
-          <h3>Activities</h3>
-          <p>I'm the Secretary for our Residents Council, maintaining meeting minutes and our <a
-            href="https://mrra.online/">website</a>.</p>
-        </section>
-      </div>
-      <div class="col-4 col-6-medium col-12-small">
-        <section class="box style1">
-          <img src="./images/saxophone.ico" alt="Music Icon" height="100" width="100">
-          <h3>Music</h3>
-          <p>I played baritone sax with <a href="https://moodswings.com/">MoodSwings</a> for 20
-            years, but I've donated all my saxes to
-            <a href="https://www.bsfa.org/">Baltimore School for the Arts</a>.</p>
-        </section>
-      </div>
+<article id="work" class="wrapper style2" role="region" aria-labelledby="work-heading">
+    <div class="container">
+        <header>
+            <h2 id="work-heading">I'm retired!</h2>
+            <p>So I don't do much.</p>
+        </header>
+        <div class="row aln-center">
+            <div class="col-4 col-6-medium col-12-small">
+                <section class="box style1">
+                    <img src="./images/retirement2.ico" alt="Retirement Icon" height="100" width="100"
+                         loading="lazy" sizes="(max-width: 736px) 100vw, 33vw">
+                    <h3>Retirement</h3>
+                    <p>I'm retired from the <a href="./assets/documents/crashStory.pdf">Navy</a> and from <a
+                            href="https://www.loyola.edu/">Loyola University Maryland</a>. I live with my wife Pat
+                        at <a href="https://mercyridge.com/">Mercy Ridge</a>.</p>
+                </section>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+                <section class="box style1">
+                    <img src="./images/webdesign.ico" alt="Administrative Icon" height="100" width="100"
+                         loading="lazy" sizes="(max-width: 736px) 100vw, 33vw">
+                    <h3>Activities</h3>
+                    <p>I'm the Secretary for our Residents Council, maintaining meeting minutes and our <a
+                            href="https://mrra.online/">website</a>.</p>
+                </section>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+                <section class="box style1">
+                    <img src="./images/saxophone.ico" alt="Music Icon" height="100" width="100"
+                         loading="lazy" sizes="(max-width: 736px) 100vw, 33vw">
+                    <h3>Music</h3>
+                    <p>I played baritone sax with <a href="https://moodswings.com/">MoodSwings</a> for 20
+                        years, but I've donated all my saxes to
+                        <a href="https://www.bsfa.org/">Baltimore School for the Arts</a>.</p>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <a href="#portfolio" class="button large scrolly">See some of my work</a>
+        </footer>
     </div>
-    <footer>
-      <a href="#portfolio" class="button large scrolly">See some of my work</a>
-    </footer>
-  </div>
 </article>
 
 <!-- Portfolio -->
-<article id="portfolio" class="wrapper style3">
-  <div class="container">
-    <header>
-      <h2>How I've spent my time lately.</h2>
-      <p>HTML, Java, and Python projects using <a href="https://www.jetbrains.com/">Jetbrains</a>
-        tools.</p>
-    </header>
-    <div class="row">
-      <div class="col-4 col-6-medium col-12-small">
-        <article class="box style2">
-          <a href="https://mrra.online" class="image featured"><img src="./images/theRidge.webp"
-                                                                    alt="Mercy Ridge Website"/></a>
-          <h3>Residents Council</h3>
-          <p><a href="https://mrra.online">Static website</a>.</p>
-        </article>
-      </div>
-      <div class="col-4 col-6-medium col-12-small">
-        <article class="box style2">
-          <a href="https://wrightstuff.site" class="image featured">
-            <img src="./images/wrightstuff.webp" alt="Wright Family Website"/></a>
-          <h3>Wright Family</h3>
-          <p><a href="https://wrightstuff.site">Static website</a>.</p>
-        </article>
-      </div>
-      <div class="col-4 col-6-medium col-12-small">
-        <article class="box style2">
-          <a href="https://github.com/Stumpwiz/mrradb" class="image featured">
-            <img src="./images/mrradb.webp" alt="MRRA Database Program"/></a>
-          <h3>Roster Maintenance</h3>
-          <p><a href="https://github.com/Stumpwiz/mrradb">LaTeX reports from a MySQL database</a>.
-          </p>
-        </article>
-      </div>
+<article id="portfolio" class="wrapper style3" role="region" aria-labelledby="portfolio-heading">
+    <div class="container">
+        <header>
+            <h2 id="portfolio-heading">How I've spent my time lately.</h2>
+            <p>HTML, Java, and Python projects using <a href="https://www.jetbrains.com/">Jetbrains</a>
+                tools.</p>
+        </header>
+        <div class="row">
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="https://mrra.online" class="image featured"><img src="./images/theRidge.webp"
+                                                                              alt="Mercy Ridge Website"
+                                                                              loading="lazy"
+                                                                              srcset="./images/theRidge.webp"
+                                                                              sizes="(max-width: 736px) 100vw, 33vw"/></a>
+                    <h3>Residents Council</h3>
+                    <p><a href="https://mrra.online">Static website</a>.</p>
+                </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="https://7jbfdx3jrp.us-east-1.awsapprunner.com/" class="image featured">
+                        <img src="./images/lmacfyGui.webp" alt="Let Me Ask ChatGPT For You"
+                             loading="lazy"
+                             srcset="./images/lmacfyGui.webp"
+                             sizes="(max-width: 736px) 100vw, 33vw"/></a>
+                    <h3>Let Me Ask ChatGPT For You</h3>
+                    <p><a href="https://7jbfdx3jrp.us-east-1.awsapprunner.com/">Static website</a>.</p>
+                </article>
+            </div>
+            <div class="col-4 col-6-medium col-12-small">
+                <article class="box style2">
+                    <a href="https://github.com/Stumpwiz/mrradb" class="image featured">
+                        <img src="./images/mrradb.webp" alt="MRRA Database Program"
+                             loading="lazy"
+                             srcset="./images/mrradb.webp"
+                             sizes="(max-width: 736px) 100vw, 33vw"/></a>
+                    <h3>Roster Maintenance</h3>
+                    <p><a href="https://github.com/Stumpwiz/mrradb">LaTeX reports from a MySQL database</a>.
+                    </p>
+                </article>
+            </div>
+        </div>
     </div>
-  </div>
 </article>
 
 <!-- NATOPS -->
-<article id="crusader" class="wrapper style3">
-  <div class="container">
-    <header>
-      <h2>Crusader documentation.</h2>
-      <p>For those interested in the <a href="https://en.wikipedia.org/wiki/Vought_F-8_Crusader">Chance Vought F-8 Crusader</a>.</p>
-    </header>
-    <!-- List with custom container for centering -->
-    <div style="display: flex; justify-content: center;">
-      <ul style="text-align: left; padding: 0; margin: 0; list-style-position: inside;">
-      <li><a href="./assets/documents/F8ABNATOPS.pdf" target="_blank">F-8A/B NATOPS Manual</a>
-      </li>
-      <li><a href="./assets/documents/F8HNATOPS.pdf" target="_blank">F-8H NATOPS Manual</a>
-      </li>
-      <li><a href="./assets/documents/f8NATOPSSup.pdf" target="_blank">F-8J Supplemental NATOPS
-        Manual</a>
-      </li>
-      <li><a href="./assets/documents/f8TacManual_A.pdf" target="_blank">F-8 Tactical Manual,
-        Part 1</a></li>
-      <li><a href="./assets/documents/f8TacManual_B.pdf" target="_blank">F-8 Tactical Manual,
-        Part 2</a>
-      </li>
-      </ul>
+<article id="crusader" class="wrapper style3" role="region" aria-labelledby="crusader-heading">
+    <div class="container">
+        <header>
+            <h2 id="crusader-heading">Crusader documentation.</h2>
+            <p>For those interested in the <a href="https://en.wikipedia.org/wiki/Vought_F-8_Crusader">Chance
+                Vought F-8 Crusader</a>.</p>
+        </header>
+        <!-- Document list with flexbox container -->
+        <div class="document-list-container">
+            <ul class="document-list">
+                <li><a href="./assets/documents/F8ABNATOPS.pdf" target="_blank">F-8A/B NATOPS Manual</a>
+                </li>
+                <li><a href="./assets/documents/F8HNATOPS.pdf" target="_blank">F-8H NATOPS Manual</a></li>
+                <li><a href="./assets/documents/f8NATOPSSup.pdf" target="_blank">F-8J Supplemental NATOPS
+                    Manual</a></li>
+                <li><a href="./assets/documents/f8TacManual_A.pdf" target="_blank">F-8 Tactical Manual, Part
+                    1</a></li>
+                <li><a href="./assets/documents/f8TacManual_B.pdf" target="_blank">F-8 Tactical Manual, Part
+                    2</a></li>
+            </ul>
+        </div>
+        <footer>
+            <p>Need to interact?</p>
+            <a href="#contact" class="button large scrolly">Get in touch with me</a>
+        </footer>
     </div>
-    <footer>
-      <p>Need to interact?</p>
-      <a href="#contact" class="button large scrolly">Get in touch with me</a>
-    </footer>
-  </div>
 </article>
 <!-- Contact -->
-<article id="contact" class="wrapper style4">
-  <div class="container medium">
-    <header>
-      <h2>If you want to get in touch.</h2>
-      <p>Forget a contact form! Just use email.</p>
-    </header>
-    <div class="row">
-      <div class="col-12 text-left">
-        <p>I've had the same email address since 1988. It's out there, so I'm not worried about
-          posting it. Feel
-          free: <a href="mailto:geo@loyola.edu">Send Email</a>. If you want to really be discreet,
-          you might want to
-          use <a href="https://www.openpgp.org/">PGP</a> with my <a
-            href="./assets/documents/publicKey.txt">public
-            key</a></p>.
-      </div>
-      <div class="col-12">
-        <hr/>
-        <h3>Find me on ...</h3>
-        <ul class="social">
-          <li><a href="https://www.linkedin.com/in/geo-wright-bb20871/"
-                 class="icon brands fa-linkedin-in"><span
-            class="label">LinkedIn</span></a></li>
-          <li><a href="https://github.com/stumpwiz" class="icon brands fa-github"><span
-            class="label">Github</span></a>
-          </li>
-        </ul>
-        <hr/>
-      </div>
+<article id="contact" class="wrapper style4" role="region" aria-labelledby="contact-heading">
+    <div class="container medium">
+        <header>
+            <h2 id="contact-heading">If you want to get in touch.</h2>
+            <p>Forget a contact form! Just use email.</p>
+        </header>
+        <div class="row">
+            <div class="col-12 text-left">
+                <p>I've had the same email address since 1988. It's out there, so I'm not worried about
+                    posting it. Feel
+                    free: <a href="mailto:geo@loyola.edu">Send Email</a>. If you want to really be discreet,
+                    you might want to
+                    use <a href="https://www.openpgp.org/">PGP</a> with my <a
+                            href="./assets/documents/publicKey.txt">public
+                        key</a></p>.
+            </div>
+            <div class="col-12">
+                <hr/>
+                <h3>Find me on ...</h3>
+                <ul class="social">
+                    <li><a href="https://www.linkedin.com/in/geo-wright-bb20871/"
+                           class="icon brands fa-linkedin-in" aria-label="LinkedIn Profile"><span
+                            class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/stumpwiz" class="icon brands fa-github"
+                           aria-label="GitHub Profile"><span
+                            class="label">Github</span></a>
+                    </li>
+                    <li><a href="https://bsky.app/profile/georgewright.site"
+                           class="icon brands custom-bluesky"
+                           aria-label="Bluesky Profile">
+                        <span class="label">Bluesky</span>
+                    </a></li>
+                </ul>
+                <hr/>
+            </div>
+        </div>
+        <footer role="contentinfo">
+            <ul id="copyright">
+                <li>&copy; George Wright. All rights reserved.</li>
+                <li>Design: <a href="https://html5up.net/">HTML5 UP</a></li>
+            </ul>
+        </footer>
     </div>
-    <footer>
-      <ul id="copyright">
-        <li>&copy; George Wright. All rights reserved.</li>
-        <li>Design: <a href="https://html5up.net/">HTML5 UP</a></li>
-      </ul>
-    </footer>
-  </div>
 </article>
 
 <!-- Scripts -->
-<script src="./assets/js/jquery.min.js"></script>
-<script src="./assets/js/jquery.scrolly.min.js"></script>
-<script src="./assets/js/browser.min.js"></script>
-<script src="./assets/js/breakpoints.min.js"></script>
-<script src="./assets/js/util.js"></script>
-<script src="./assets/js/main.js"></script>
+<script src="./assets/js/jquery.min.js" defer></script>
+<script src="./assets/js/jquery.scrolly.min.js" defer></script>
+<script src="./assets/js/browser.min.js" defer></script>
+<script src="./assets/js/breakpoints.min.js" defer></script>
+<script src="./assets/js/main.js" defer></script>
 </body>
 </html>
